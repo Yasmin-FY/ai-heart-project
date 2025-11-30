@@ -1,0 +1,64 @@
+name: Build and Deploy MkDocs Site
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out MkDocs repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install MkDocs + theme
+        run: |
+          pip install mkdocs mkdocs-material
+
+      # --- Pull remote Markdown repo ---
+      - name: Clone external markdown repo
+        run: |
+          git clone --depth 1 https://github.com/Yasmin-FY/llm-safety-silencing.git tmp
+
+      - name: Copy external markdown into docs/
+        run: |
+          mkdir -p docs/reports/ai-safety-silencing
+          cp -R tmp/README.md docs/reports/ai-safety-silencing/ || true
+          cp -R tmp/articles docs/reports/ai-safety-silencing/ || true
+          cp -R tmp/meta docs/reports/ai-safety-silencing/ || true
+          cp -R tmp/mitigations docs/reports/ai-safety-silencing/ || true
+          cp -R tmp/resources docs/reports/ai-safety-silencing/ || true
+          cp -R tmp/supporting_docs docs/reports/ai-safety-silencing/ || true
+          rm -rf tmp
+
+      # --- Build MkDocs ---
+      - name: Build MkDocs site
+        run: mkdocs build --clean
+
+      - name: Upload artifact for GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
