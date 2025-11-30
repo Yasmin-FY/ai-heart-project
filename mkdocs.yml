@@ -11,6 +11,7 @@ theme:
 # Navigation
 nav:
   - Home: index.md
+  - About: about.md
   - Reports:
     - Safety Silencing in Public LLMs:
       - Safety Silencing Report: reports/ai-safety-silencing/README.md
