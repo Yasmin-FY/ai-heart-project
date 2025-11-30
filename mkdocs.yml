@@ -6,6 +6,7 @@ theme:
   palette:
     primary: amber
   logo: img/icon.jpeg
+  language: en
 
 # Navigation
 nav:
@@ -20,3 +21,9 @@ nav:
 
 # Footer
 copyright: Copyright &copy; 2025 AI HEART Project
+extra:
+  social:
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/AI_HEARTproject
+    - icon: fontawesome/brands/github
+      link: https://github.com/Yasmin-FY
