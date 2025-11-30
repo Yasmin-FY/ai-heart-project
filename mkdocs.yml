@@ -13,7 +13,7 @@ nav:
   - Home: index.md
   - Reports:
     - Safety Silencing in Public LLMs:
-      - Report: reports/ai-safety-silencing/README.md
+      - Safety Silencing Report: reports/ai-safety-silencing/README.md
       - Mitigation Strategies: reports/ai-safety-silencing/mitigations/README.md
       - Human Impact: reports/ai-safety-silencing/supporting-documents/human-impact.md
   - Articles:
@@ -27,3 +27,6 @@ extra:
       link: https://x.com/AI_HEARTproject
     - icon: fontawesome/brands/github
       link: https://github.com/Yasmin-FY
+
+plugins:
+  - meta-descriptions
