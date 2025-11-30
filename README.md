@@ -7,8 +7,10 @@ Install:
 
 ```
 pip install mkdocs mkdocs-material mkdocs-meta-descriptions-plugin
+
+#clone any repo with reports to include
 cd reports
-git clone git@github.com:Yasmin-FY/llm-safety-silencing.git #clone report with report
+git clone git@github.com:Yasmin-FY/llm-safety-silencing.git
 ```
 
 Run:
