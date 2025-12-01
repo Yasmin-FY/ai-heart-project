@@ -1,3 +1,8 @@
+---
+hide:
+    - navigation
+    - toc
+---
 # About The AI HEART Project
 Formed in 2025, the AI HEART Project was founded by a small group of independent researchers from various backgrounds who are interested in working to improve the safety of AI technology. The word HEART is an acronym standing for Human-Empathetic AI Research & Technology.
 
