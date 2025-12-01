@@ -13,10 +13,15 @@ nav:
   - Home: index.md
   - About: about.md
   - Reports:
-    - Safety Silencing in Public LLMs:
-      - Safety Silencing Report: reports/ai-safety-silencing/README.md
-      - Mitigation Strategies: reports/ai-safety-silencing/mitigations/README.md
-      - Human Impact: reports/ai-safety-silencing/supporting-documents/human-impact.md
+    - Safety Silencing Report:
+      - Safety Silencing in Public LLMs: reports/ai-safety-silencing/README.md
+      - Mitigation:
+        - Mitigation Strategies: reports/ai-safety-silencing/mitigations/README.md
+        - Drift Monitor: reports/ai-safety-silencing/mitigations/drift-monitor.md
+      - Supporting Documents:
+        - Human Impact: reports/ai-safety-silencing/supporting-documents/human-impact.md
+        - Safety Collapse: reports/ai-safety-silencing/supporting-documents/safety-collapse.md
+        - Further Reading: reports/ai-safety-silencing/supporting-documents/further-reading.md
   - Articles:
     - AI Addiction: reports/ai-safety-silencing/articles/ai-addiction.md
 

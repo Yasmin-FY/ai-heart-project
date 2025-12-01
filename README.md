@@ -6,6 +6,8 @@ This repo contains the website for the AI HEART Project.
 Install:
 
 ```
+python3 -m venv venv
+source venv/bin/activate
 pip install mkdocs mkdocs-material mkdocs-meta-descriptions-plugin
 
 #clone any repo with reports to include
@@ -16,5 +18,5 @@ git clone git@github.com:Yasmin-FY/llm-safety-silencing.git
 Run:
 
 ```
-mkdocs serv
+mkdocs serve
 ```
