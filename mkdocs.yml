@@ -6,7 +6,7 @@ theme:
   palette:
     primary: amber
   logo: img/icon.svg
-  favicon: img/IMG_1174.PNG
+  favicon: img/icon.png
   custom_dir: overrides
   language: en
   features:

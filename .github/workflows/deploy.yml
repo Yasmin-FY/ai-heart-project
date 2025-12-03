@@ -36,8 +36,6 @@ jobs:
         run: |
           mkdir -p docs/reports/ai-safety-silencing
           cp -R tmp/README.md docs/reports/ai-safety-silencing/ || true
-          cp -R tmp/articles docs/reports/ai-safety-silencing/ || true
-          cp -R tmp/meta docs/reports/ai-safety-silencing/ || true
           cp -R tmp/mitigations docs/reports/ai-safety-silencing/ || true
           cp -R tmp/resources docs/reports/ai-safety-silencing/ || true
           cp -R tmp/supporting-documents docs/reports/ai-safety-silencing/ || true
