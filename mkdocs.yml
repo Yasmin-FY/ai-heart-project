@@ -5,10 +5,13 @@ theme:
   name: material
   palette:
     primary: amber
-  logo: img/icon.jpeg
+  logo: img/icon.svg
+  favicon: img/IMG_1174.PNG
+  custom_dir: overrides
   language: en
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.instant
 
 # Navigation
@@ -26,7 +29,7 @@ nav:
         - Safety Collapse: reports/ai-safety-silencing/supporting-documents/safety-collapse.md
         - Further Reading: reports/ai-safety-silencing/supporting-documents/further-reading.md
   - Articles:
-    - reports/ai-safety-silencing/articles/ai-addiction.md
+    - articles/ai-addiction.md
 
 # Footer
 copyright: Copyright &copy; 2025 AI HEART Project
@@ -40,3 +43,6 @@ extra:
 
 plugins:
   - meta-descriptions
+
+extra_css:
+  - stylesheets/extra.css
