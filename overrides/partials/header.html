@@ -49,7 +49,7 @@
             <a 
                 href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}"
                 title="{{ config.site_name | e }}"
-                aria-label="{{ config.site_name }}"><img class="md-header__image" src="/img/title.svg" alt="{{ config.site_name }}"></a>
+                aria-label="{{ config.site_name }}"><img class="md-header__image" src="{{ config.theme.logo | url }}" alt="{{ config.site_name }}"></a>
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">

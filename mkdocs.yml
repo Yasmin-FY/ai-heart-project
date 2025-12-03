@@ -5,7 +5,7 @@ theme:
   name: material
   palette:
     primary: amber
-  logo: img/icon.svg
+  logo: img/title.svg
   favicon: img/icon.png
   custom_dir: overrides
   language: en
