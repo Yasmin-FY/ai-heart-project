@@ -12,7 +12,6 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.instant
 
 # Navigation
 nav:
@@ -29,6 +28,7 @@ nav:
         - Safety Collapse: reports/ai-safety-silencing/supporting-documents/safety-collapse.md
         - Further Reading: reports/ai-safety-silencing/supporting-documents/further-reading.md
   - Articles:
+    - articles/empathy-for-ai.md
     - articles/ai-addiction.md
 
 # Footer
@@ -42,6 +42,10 @@ extra:
 
 plugins:
   - meta-descriptions
+  - meta
+
+markdown_extensions:
+  - footnotes
 
 extra_css:
   - stylesheets/extra.css
