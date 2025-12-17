@@ -24,3 +24,32 @@
         width: 40%;
     }
 }
+
+.article-meta {
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+  font-size: 0.7rem;
+  color: var(--md-default-fg-color--light);
+  opacity: 0.7;
+}
+
+.article-meta span {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.article-meta svg {
+  width: 0.8rem;
+  height: 0.8rem;
+  vertical-align: middle;
+  margin-right: 0.3rem;
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 44.9375em) {
+  .article-meta span {
+    display: block;
+    margin-bottom: 0.1rem;
+    margin-right: 0;
+  }
+}

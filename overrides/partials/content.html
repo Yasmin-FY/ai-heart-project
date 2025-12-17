@@ -1,0 +1,60 @@
+<div class="md-content" data-md-component="content">
+  <article class="md-content__inner md-typeset">
+    {% block content %}
+      {% if page.edit_url %}
+        <a href="{{ page.edit_url }}" title="{{ lang.t('edit.link.title') }}" class="md-content__button md-icon">
+          {% include ".icons/material/pencil.svg" %}
+        </a>
+      {% endif %}
+      
+      {% if not "\x3ch1" in page.content %}
+        <h1>{{ page.title | d(config.site_name, true)}}</h1>
+        {% if page.meta and (page.meta.author or page.meta.date) %}
+          <div class="article-meta">
+            {% if page.meta.author %}
+              <span class="article-author">
+                {% include ".icons/material/account.svg" %}
+                By {{ page.meta.author }}
+              </span>
+            {% endif %}
+            {% if page.meta.date %}
+              <span class="article-date">
+                {% include ".icons/material/calendar.svg" %}
+                {{ page.meta.date }}
+              </span>
+            {% endif %}
+          </div>
+        {% endif %}
+        {{ page.content }}
+      {% else %}
+        {{ page.content }}
+        {% if page.meta and (page.meta.author or page.meta.date) %}
+          <script>
+            document.addEventListener('DOMContentLoaded', function() {
+              var h1 = document.querySelector('h1');
+              if (h1) {
+                var meta = document.createElement('div');
+                meta.className = 'article-meta';
+                meta.innerHTML = `
+                  {% if page.meta.author %}
+                    <span class="article-author">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z" /></svg>
+                      By {{ page.meta.author }}
+                    </span>
+                  {% endif %}
+                  {% if page.meta.date %}
+                    <span class="article-date">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19,3H18V1H16V3H8V1H6V3H5A2,2 0 0,0 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3M19,19H5V8H19V19Z" /></svg>
+                      {{ page.meta.date }}
+                    </span>
+                  {% endif %}
+                `;
+                h1.parentNode.insertBefore(meta, h1.nextSibling);
+              }
+            });
+          </script>
+        {% endif %}
+      {% endif %}
+    {% endblock %}
+  </article>
+</div>
