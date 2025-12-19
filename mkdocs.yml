@@ -39,6 +39,8 @@ extra:
       link: https://x.com/AI_HEARTproject
     - icon: fontawesome/brands/github
       link: https://github.com/Yasmin-FY
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/qCddXfnkz
 
 plugins:
   - meta-descriptions
