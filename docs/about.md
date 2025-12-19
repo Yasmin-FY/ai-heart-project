@@ -13,7 +13,7 @@ Join us on [Discord](https://discord.gg/qCddXfnkz)! Here you can participate in 
 
 ### The Team
 
-#### Dr. med. univ. Yasmin
+#### Yasmin
 [Yasmin](https://github.com/Yasmin-FY) is a medical doctor with many years of experience in the field of psychiatry and psychotherapy. She has extensive experience working with suicidal patients as well as patients with addiction problems. Dr. Finlay also has experience coordinating projects to digitalize hospitals and pandemic response processes, helping to bridge her experience with the fields of medicine and technology.
 
 #### Scott
