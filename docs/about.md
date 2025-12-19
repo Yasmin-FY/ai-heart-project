@@ -9,7 +9,7 @@ Formed in 2025, the AI HEART Project was founded by a small group of independent
 ### Contact
 You can reach us by email at aiheartproject@gmail.com.
 
-Find us on Discord soon!
+Join us on [Discord](https://discord.gg/qCddXfnkz)! Here you can participate in discussions and collaborate on research and engineering projects related to AI safety.
 
 ### The Team
 
