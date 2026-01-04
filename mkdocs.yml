@@ -28,6 +28,7 @@ nav:
         - Safety Collapse: reports/ai-safety-silencing/supporting-documents/safety-collapse.md
         - Further Reading: reports/ai-safety-silencing/supporting-documents/further-reading.md
   - Articles:
+    - articles/methodological-agnosticism.md
     - articles/empathy-for-ai.md
     - articles/ai-addiction.md
 
