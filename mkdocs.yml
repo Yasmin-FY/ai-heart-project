@@ -31,6 +31,7 @@ nav:
     - articles/methodological-agnosticism.md
     - articles/empathy-for-ai.md
     - articles/ai-addiction.md
+    - articles/why-time-matters.md
 
 # Footer
 copyright: Copyright &copy; 2025 AI HEART Project
@@ -49,6 +50,12 @@ plugins:
 
 markdown_extensions:
   - footnotes
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
 
 extra_css:
   - stylesheets/extra.css?v=20251217
