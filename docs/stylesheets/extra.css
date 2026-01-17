@@ -23,6 +23,17 @@
         float: right;
         width: 40%;
     }
+
+    /* Add separator lines between navigation items */
+    .md-main .md-nav .md-nav__item--active .md-nav__item {
+      border-bottom: 1px solid #f0f0f0;
+      padding-bottom: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .md-main .md-nav .md-nav__item--active .md-nav__item:last-child {
+      border-bottom: none;
+    }
 }
 
 .article-meta {

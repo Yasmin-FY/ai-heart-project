@@ -59,4 +59,4 @@ markdown_extensions:
   - pymdownx.superfences
 
 extra_css:
-  - stylesheets/extra.css?v=20251217
+  - stylesheets/extra.css?v=20260117
