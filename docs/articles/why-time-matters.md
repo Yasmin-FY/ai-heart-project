@@ -4,6 +4,7 @@ description: "Conversational AI systems typically lack a concept of time and its
 author: Yasmin
 date: January 16, 2026
 ---
+
 # Why Time Matters For AI
 
 Conversational AI systems are able to understand natural language and user intent and are even able to recall things you've talked about in the past. Although this historical context and memory appear to be time-aware, the LLM actually has a very limited understanding of the temporal progression of the conversation. Even though the LLM knows what was said at some point in the past and in which order, most LLMs have no idea exactly when it was said. 
@@ -65,7 +66,7 @@ Alignment drift does not occur exclusively at specific points but cumulatively o
 
 Conversations do not exist in one isolated moment; they unfold along a temporal structure of past, present, and future. Meaning arises through reference to previous utterances, situational contextualization of the current state, and implicit goal orientation directing the future of the conversation. A good conversation asks: "Where did we come from?", "Where are we standing?", and "Where do we want to go?". Without this temporal embedding, dialogue disintegrates into reactive, fragmented responses. For conversational AI, this structure is crucial for safety. 
 
-Reference to the past is already built in with the conversation context, however timestamps grant information about time-sensitivity and time-based relevance. This past-modeling enables context sensitivity and pattern recognition. Present-modeling allows for state assessment and dynamic evaluation. Future-orientation allows for steering the conversation toward a reasonable outcome. Functional anthropomorphization therefore requires not only linguistic simulation but also temporal coherence. A system that treats time only as a sequence of turns cannot maintain a stable interaction architecture. A system that integrates time as a structure of meaning can regulate conversational dynamics instead of merely reacting to them.
+Reference to the past is already built in with the conversation context, however timestamps grant information about time-sensitivity and time-based relevance. This past-modeling enables context sensitivity and pattern recognition. Present-modeling allows for state assessment and dynamic evaluation. Future-orientation allows for steering the conversation toward a reasonable outcome. Functional anthropomorphism therefore requires not only linguistic simulation but also temporal coherence. A system that treats time only as a sequence of turns cannot maintain a stable interaction architecture. A system that integrates time as a structure of meaning can regulate conversational dynamics instead of merely reacting to them.
 
 ## Time as an Anchor of Reality and Context
 
