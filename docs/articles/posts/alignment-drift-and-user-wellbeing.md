@@ -4,7 +4,7 @@ description: "Alignment drift in AI systems isn't just a technical problem. It e
 author: Yasmin
 authors: 
     - Yasmin
-date: 2025-01-18
+date: 2026-01-18
 slug: alignment-drift-and-user-wellbeing
 ---
 
