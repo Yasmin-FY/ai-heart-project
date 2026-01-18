@@ -25,13 +25,13 @@
     }
 
     /* Add separator lines between navigation items */
-    .md-main .md-nav .md-nav__item--active .md-nav__item {
+    .md-main .md-nav .md-nav__item--active .md-nav__item, .md-sidebar--secondary .md-sidebar__inner .md-nav__list .md-nav__item {
       border-bottom: 1px solid #f0f0f0;
       padding-bottom: 0.5rem;
       margin-bottom: 0.5rem;
     }
 
-    .md-main .md-nav .md-nav__item--active .md-nav__item:last-child {
+    .md-main .md-nav .md-nav__item--active .md-nav__item:last-child, .md-sidebar--secondary .md-sidebar__inner .md-nav__list .md-nav__item:last-child {
       border-bottom: none;
     }
 }

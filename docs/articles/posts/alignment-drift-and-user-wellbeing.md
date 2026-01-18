@@ -2,7 +2,10 @@
 title: "Alignment Drift and User Wellbeing"
 description: "Alignment drift in AI systems isn't just a technical problem. It emerges from the dynamic interaction between user and system, where emotional escalation and feedback loops gradually shift behavior away from intended goals and safety requirements."
 author: Yasmin
-date: January 18, 2025
+authors: 
+    - Yasmin
+date: 2025-01-18
+slug: alignment-drift-and-user-wellbeing
 ---
 
 # Alignment Drift and User Wellbeing
@@ -18,6 +21,8 @@ Alignment refers to the degree to which an AI system's actual behavior matches i
 - from stability to emotional intensification
 
 These shifts may remain subtle within individual interactions but accumulate over longer conversations and repeated use.
+
+<!-- more -->
 
 Alignment drift can take various forms:
 

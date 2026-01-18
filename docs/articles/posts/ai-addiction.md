@@ -2,7 +2,10 @@
 title: "AI Addiction: The Addictive Nature of Large Language Models and Their Impact on the Mind and Brain"
 description: "With the rise of sophisticated Large Language Models (LLMs) a new form of digital addiction is growing in visibility. This article explores the addictive nature of LLMs and the impact they have on the human mind."
 author: Yasmin
-date: November 21, 2025
+authors: 
+    - Yasmin
+date: 2025-11-21
+slug: ai-addiction
 ---
 
 # AI Addiction: The Addictive Nature of Large Language Models and Their Impact on the Mind and Brain
@@ -11,6 +14,8 @@ With the rise of sophisticated Large Language Models (LLMs) a new form of digita
 While these tools have extremely high potential for value, they also exploit human psychological and neurobiological vulnerabilities, fostering addictive behaviors. The design of LLMs intentionally engages users in ways that mirror other addictive behaviors such as gambling, social media, and media consumption.
 
 This essay explores how LLMs are designed to be addictive, the psychological and neurobiological effects of using these AI systems, and their broader impact on mental health.
+
+<!-- more -->
 
 ## How LLMs are Designed to Be Addictive
 

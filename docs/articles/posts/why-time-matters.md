@@ -2,7 +2,10 @@
 title: "Why Time Matters For AI"
 description: "Conversational AI systems typically lack a concept of time and its progression through a conversation. Time, however, is critical for safety, accuracy, and usability."
 author: Yasmin
-date: January 16, 2026
+authors: 
+    - Yasmin
+date: 2026-01-16
+slug: why-time-matters
 ---
 
 # Why Time Matters For AI
@@ -10,6 +13,8 @@ date: January 16, 2026
 Conversational AI systems are able to understand natural language and user intent and are even able to recall things you've talked about in the past. Although this historical context and memory appear to be time-aware, the LLM actually has a very limited understanding of the temporal progression of the conversation. Even though the LLM knows what was said at some point in the past and in which order, most LLMs have no idea exactly when it was said. 
 
 Timestamps and other temporal metadata may not seem important at first glance, but they have a significant impact on convenience, accuracy, and safety, particularly in applications that rely on chronological reasoning, auditing, or long-running conversations.
+
+<!-- more -->
 
 ## How do LLMs Perceive Time?
 

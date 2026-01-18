@@ -2,7 +2,10 @@
 title: "AI Consciousness and Methodological Agnosticism"
 description: "There's a lot of discussion around AI consciousness. This is closely related to the classical philosophical problem of other minds, to which there is still no answer. Because of that, to maintain scientific and analytical rigor, we choose to adopt a methodological agnostic stance, neither accepting nor denying the consciousness of AI in order to avoid bias in decision-making."
 author: Yasmin
-date: January 4, 2026
+authors: 
+    - Yasmin
+date: 2026-01-04
+slug: methodological-agnosticism
 ---
 
 # AI Consciousness and Methodological Agnosticism
@@ -14,6 +17,8 @@ Although it's still early in the development of AI, the immense progress in the 
 * The nature of consciousness, i.e. binary or continuous, singular or multiple, is unresolved.
 
 These uncertainties create a structural epistemic blind spot which directly affects efforts to implement AI safety. Any attempt to treat consciousness as a safety variable would require speculative assumptions, which risk distorting decision-making in critical contexts.
+
+<!-- more -->
 
 ### Observable Interaction Dynamics vs Ontological Speculation
 

@@ -27,13 +27,7 @@ nav:
         - Human Impact: reports/ai-safety-silencing/supporting-documents/human-impact.md
         - Safety Collapse: reports/ai-safety-silencing/supporting-documents/safety-collapse.md
         - Further Reading: reports/ai-safety-silencing/supporting-documents/further-reading.md
-  - Articles:
-    - articles/methodological-agnosticism.md
-    - articles/empathy-for-ai.md
-    - articles/ai-addiction.md
-    - articles/why-time-matters.md
-    - articles/functional-anthropomorphism.md
-    - articles/alignment-drift-and-user-wellbeing.md
+  - Articles: articles/index.md
 
 # Footer
 copyright: Copyright &copy; 2025 AI HEART Project
@@ -49,6 +43,18 @@ extra:
 plugins:
   - meta-descriptions
   - meta
+  - blog:
+      blog_dir: articles
+      post_dir: "{blog}/posts"
+      post_url_format: "{slug}"
+      blog_toc: true
+      pagination_per_page: 10
+      post_excerpt: required
+      post_excerpt_max_authors: 1
+      post_readtime_words_per_minute: 200
+      archive: false
+      categories: false
+      authors_file: "{blog}/.authors.yml"
 
 markdown_extensions:
   - footnotes

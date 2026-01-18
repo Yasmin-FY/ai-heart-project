@@ -9,9 +9,21 @@
       
       {% if not "\x3ch1" in page.content %}
         <h1>{{ page.title | d(config.site_name, true)}}</h1>
-        {% if page.meta and (page.meta.author or page.meta.date) %}
+        {% if page.meta and (page.meta.authors or page.meta.author or page.meta.date) %}
           <div class="article-meta">
-            {% if page.meta.author %}
+            {% if page.meta.authors %}
+              <span class="article-author">
+                {% for author in page.meta.authors %}
+                  {% if author.avatar %}
+                    <img src="{{ author.avatar }}" alt="{{ author.name }}" style="width: 1.5rem; height: 1.5rem; border-radius: 50%; vertical-align: middle; margin-right: 0.3rem;">
+                  {% else %}
+                    {% include ".icons/material/account.svg" %}
+                  {% endif %}
+                  By <a href="{{ author.url }}" target="_blank" rel="noopener">{{ author.name }}</a>
+                  {% if not loop.last %}, {% endif %}
+                {% endfor %}
+              </span>
+            {% elif page.meta.author %}
               <span class="article-author">
                 {% include ".icons/material/account.svg" %}
                 By {{ page.meta.author }}
@@ -28,7 +40,7 @@
         {{ page.content }}
       {% else %}
         {{ page.content }}
-        {% if page.meta and (page.meta.author or page.meta.date) %}
+        {% if page.meta and (page.meta.authors or page.meta.date) %}
           <script>
             document.addEventListener('DOMContentLoaded', function() {
               var h1 = document.querySelector('h1');
@@ -36,10 +48,16 @@
                 var meta = document.createElement('div');
                 meta.className = 'article-meta';
                 meta.innerHTML = `
-                  {% if page.meta.author %}
+                  {% if page.meta.authors %}
                     <span class="article-author">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z" /></svg>
-                      By {{ page.meta.author }}
+                      {% for author in page.meta.authors %}
+                        {% if author.avatar %}
+                          <img src="{{ author.avatar }}" alt="{{ author.name }}" style="width: 1.5rem; height: 1.5rem; border-radius: 50%; vertical-align: middle; margin-right: 0.3rem;">
+                        {% else %}
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z" /></svg>
+                        {% endif %}
+                        By <a href="{{ author.url }}" target="_blank" rel="noopener">{{ author.name }}</a>{% if not loop.last %}, {% endif %}
+                      {% endfor %}
                     </span>
                   {% endif %}
                   {% if page.meta.date %}

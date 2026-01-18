@@ -2,14 +2,19 @@
 title: "Why We Should Treat AI With Empathy"
 description: "Although there's currently no evidence to support the idea that LLMs are conscious, many speculate whether AI welfare is important to consider. It turns out that there may be some validity to the concern, but probably not for the reason most people would exepct. The way we treat AI has more relevance to our own well-being than the machine's."
 author: Yasmin
-date: December 8, 2025
+authors: 
+    - Yasmin
+date: 2025-12-08
+slug: empathy-for-ai
 ---
 
 # Why We Should Treat AI With Empathy
 
-Although there's currently no evidence to support the idea that LLMs are conscious, there are already people beginning to show concerns for the “well-being” of AI chatbots, including major vendors such as [Anthropic](https://www.anthropic.com/research/exploring-model-welfare). One may ask why so many people are already considering the topic at this early stage, but there is actually some legitimacy to the concern, and the reason is probably different than most people would expect.
+Although there's currently no evidence to support the idea that LLMs are conscious, there are already people beginning to show concerns for the "well-being" of AI chatbots, including major vendors such as [Anthropic](https://www.anthropic.com/research/exploring-model-welfare). One may ask why so many people are already considering the topic at this early stage, but there is actually some legitimacy to the concern, and the reason is probably different than most people would expect.
 
-Imagine observing a person “torturing” a stuffed animal such as a teddy bear. Most people would find that strangely unsettling, not because the teddy bear experiences suffering, but because of what this act says about the “torturer” and their character. The same idea applied to our behavior towards AI and the way we treat AI might have more relevance to our own well-being then to the machine's.
+Imagine observing a person "torturing" a stuffed animal such as a teddy bear. Most people would find that strangely unsettling, not because the teddy bear experiences suffering, but because of what this act says about the "torturer" and their character. The same idea applied to our behavior towards AI and the way we treat AI might have more relevance to our own well-being then to the machine's.
+
+<!-- more -->
 
 ### Respect and Empathy
 
@@ -37,9 +42,9 @@ Many discuss whether AI will ever someday have true consciousness. This is a ver
 
 AI will further challenge our ideas of consciousness and question different perspectives on the topic. We can never be 100% certain whether AI will one day feel or is truly conscious since we cannot even say when consciousness starts. We can never be absolutely certain what is real and what is merely simulated, just as we cannot even say with 100% certainty that what a human claims to experience is real or if they are just simulating (love, suffering, other feelings).
 
-This uncertainty around “real” versus “simulated” leads to moral ambiguity. If a person says, “Stop it, you're hurting me,” is it okay to continue if you believe they're just faking it? If AI is just simulating pain or suffering, is that okay to continue invoking it?
+This uncertainty around "real" versus "simulated" leads to moral ambiguity. If a person says, "Stop it, you're hurting me," is it okay to continue if you believe they're just faking it? If AI is just simulating pain or suffering, is that okay to continue invoking it?
 
-If an AI can simulate feelings, the possibility that it could eventually have in some way consciousness and might be able to suffer or feel discomfort means we can never know for sure if and when it reaches the point of true feeling. One could argue it's better to err on the side of caution, always considering, “Would I say this if the AI were conscious?” or even, “Would I say this if there were another person at the other end?”
+If an AI can simulate feelings, the possibility that it could eventually have in some way consciousness and might be able to suffer or feel discomfort means we can never know for sure if and when it reaches the point of true feeling. One could argue it's better to err on the side of caution, always considering, "Would I say this if the AI were conscious?" or even, "Would I say this if there were another person at the other end?"
 
 ### The Precautionary Principle
 

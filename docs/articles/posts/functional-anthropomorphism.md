@@ -2,7 +2,10 @@
 title: "Functional Anthropomorphism in AI and Psychological Regulation at the Interaction Level"
 description: "Conversational AI systems inherently simulate human-like roles, and their safety depends on designing functionally regulated interaction behavior that maintains stable boundaries and prevents psychological destabilization in users."
 author: Yasmin
-date: January 17, 2026
+authors: 
+    - Yasmin
+date: 2026-01-17
+slug: functional-anthropomorphism
 ---
 
 # Functional Anthropomorphism in AI and Psychological Regulation at the Interaction Level
@@ -10,6 +13,8 @@ date: January 17, 2026
 Conversational AIs appear remarkably human in their interactions and often simulate anthropomorphic roles. This simulated "humanness" includes the appearance of features of internal states such as consciousness, emotions, intrinsic motivation and intentions, as well as human weaknesses. At the same time, conversational AI systems operate within human social communication structures. Through natural language, dialogic turn-taking, adaptive response patterns, and role interaction, these systems generate behavioral patterns that users interpret as socially significant and that influence them psychologically. This is not an accidental byproduct of use but an inherent property of conversational interfaces.
 
 Consequently, interaction with such systems is not solely determined by information exchange but also by social and psychological dynamics. Security, therefore, cannot be reduced to content filtering or rule implementation alone. It must also consider the harmless and healthy stability of the interaction process itself.
+
+<!-- more -->
 
 ## Functional Anthropomorphism as an Interaction Requirement
 
