@@ -4,6 +4,7 @@ description: "With the rise of sophisticated Large Language Models (LLMs) a new 
 author: Yasmin
 date: November 21, 2025
 ---
+
 # AI Addiction: The Addictive Nature of Large Language Models and Their Impact on the Mind and Brain
 With the rise of sophisticated Large Language Models (LLMs) a new form of digital addiction is growing in visibility. These models are designed to exhibit human-like interactions, providing users with conversational responses, personalized advice, creative assistance, and even fun humorous chit-chat.
 

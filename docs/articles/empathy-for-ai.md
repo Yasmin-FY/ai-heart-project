@@ -4,6 +4,7 @@ description: "Although there's currently no evidence to support the idea that LL
 author: Yasmin
 date: December 8, 2025
 ---
+
 # Why We Should Treat AI With Empathy
 
 Although there's currently no evidence to support the idea that LLMs are conscious, there are already people beginning to show concerns for the “well-being” of AI chatbots, including major vendors such as [Anthropic](https://www.anthropic.com/research/exploring-model-welfare). One may ask why so many people are already considering the topic at this early stage, but there is actually some legitimacy to the concern, and the reason is probably different than most people would expect.
