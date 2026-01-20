@@ -32,6 +32,7 @@ nav:
 # Footer
 copyright: Copyright &copy; 2025 AI HEART Project
 extra:
+  og_image: img/default-share-image.jpg
   social:
     - icon: fontawesome/brands/x-twitter
       link: https://x.com/AI_HEARTproject
@@ -64,6 +65,7 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.superfences
+  - markdown_captions
 
 extra_css:
   - stylesheets/extra.css?v=20260117

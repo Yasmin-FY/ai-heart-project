@@ -8,7 +8,7 @@ Install:
 ```
 python3 -m venv venv
 source venv/bin/activate
-pip install mkdocs mkdocs-material mkdocs-meta-descriptions-plugin
+pip install mkdocs mkdocs-material mkdocs-meta-descriptions-plugin markdown_captions
 
 #clone any repo with reports to include
 cd reports
