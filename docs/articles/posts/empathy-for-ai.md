@@ -6,6 +6,7 @@ authors:
     - Yasmin
 date: 2025-12-08
 slug: empathy-for-ai
+image: img/articles/ai-empathy_entity-spectrum.png
 ---
 
 # Why We Should Treat AI With Empathy
@@ -22,7 +23,7 @@ It's a not a new idea that the way we act when no one is watching shows who we t
 
 Morality is complex, and there has never been a clear consensus on its boundaries. Take, for example, the following spectrum of entities:
 
-![Entity Spectrum](../../img/articles/ai-empathy_entity-spectrum.drawio.png)
+![Entity Spectrum](../../img/articles/ai-empathy_entity-spectrum.png)
 
 Which of these is okay to mistreat? Where do you draw the line? And where does an AI, which has no feelings but can accurately simulate them, fit in? This boundary can become even more convoluted when acting out role-plays with the LLM based on real people and realistic scenarios. 
 
