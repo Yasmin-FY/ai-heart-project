@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.3">
+  <diagram name="Page-1" id="yR54VYegz9QwHtNTpfyy">
+    <mxGraphModel dx="1358" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TECLEAK4wFn6KEX-FBJz-12" edge="1" parent="1" source="TECLEAK4wFn6KEX-FBJz-20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;strokeWidth=2;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TECLEAK4wFn6KEX-FBJz-13" connectable="0" parent="TECLEAK4wFn6KEX-FBJz-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=#143642;" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 12px;&quot;&gt;Response&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1373" y="-3" as="geometry">
+            <mxPoint x="37" y="118" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TECLEAK4wFn6KEX-FBJz-21" edge="1" parent="1" source="TECLEAK4wFn6KEX-FBJz-29" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;strokeWidth=2;" target="TECLEAK4wFn6KEX-FBJz-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TECLEAK4wFn6KEX-FBJz-28" edge="1" parent="1" source="TECLEAK4wFn6KEX-FBJz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;strokeWidth=2;" target="TECLEAK4wFn6KEX-FBJz-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TECLEAK4wFn6KEX-FBJz-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="230" width="175" x="145" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="TECLEAK4wFn6KEX-FBJz-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=1;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=#143642;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Residual Activation Space (Layer 1)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="150.5" y="237" as="geometry" />
+        </mxCell>
+        <mxCell id="TECLEAK4wFn6KEX-FBJz-22" edge="1" parent="1" source="TECLEAK4wFn6KEX-FBJz-3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;strokeWidth=2;" target="TECLEAK4wFn6KEX-FBJz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TECLEAK4wFn6KEX-FBJz-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#FFF7CF;strokeColor=#0F8B8D;fontColor=#143642;strokeWidth=2;fillStyle=solid;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Self-Attention&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="190.5" y="274" as="geometry" />
+        </mxCell>
+        <mxCell id="TECLEAK4wFn6KEX-FBJz-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#FFF7CF;strokeColor=#0F8B8D;fontColor=#143642;strokeWidth=2;fillStyle=solid;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;MLP&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="190.5" y="374" as="geometry" />
+        </mxCell>
+        <mxCell id="TECLEAK4wFn6KEX-FBJz-7" edge="1" parent="1" source="TECLEAK4wFn6KEX-FBJz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;strokeWidth=2;" target="TECLEAK4wFn6KEX-FBJz-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TECLEAK4wFn6KEX-FBJz-10" connectable="0" parent="TECLEAK4wFn6KEX-FBJz-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=#143642;fontFamily=Comic Sans MS;fontStyle=0;fontSize=12;" value="Prompt" vertex="1">
+          <mxGeometry relative="1" x="-0.6476" as="geometry">
+            <mxPoint x="24" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TECLEAK4wFn6KEX-FBJz-5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;strokeWidth=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;User&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="70" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="TECLEAK4wFn6KEX-FBJz-11" edge="1" parent="1" source="TECLEAK4wFn6KEX-FBJz-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;strokeWidth=2;" target="TECLEAK4wFn6KEX-FBJz-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TECLEAK4wFn6KEX-FBJz-6" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;strokeWidth=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Tokenize&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="172.5" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="TECLEAK4wFn6KEX-FBJz-20" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;strokeWidth=2;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;De-tokenize&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="172.5" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="TECLEAK4wFn6KEX-FBJz-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="230" width="175" x="350" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="TECLEAK4wFn6KEX-FBJz-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=1;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=#143642;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Layer 2&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="357.5" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="TECLEAK4wFn6KEX-FBJz-25" edge="1" parent="1" source="TECLEAK4wFn6KEX-FBJz-26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;strokeWidth=2;" target="TECLEAK4wFn6KEX-FBJz-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TECLEAK4wFn6KEX-FBJz-26" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#FFF7CF;strokeColor=#0F8B8D;fontColor=#143642;strokeWidth=2;fillStyle=solid;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Self-Attention&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="395.5" y="274" as="geometry" />
+        </mxCell>
+        <mxCell id="TECLEAK4wFn6KEX-FBJz-27" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#FFF7CF;strokeColor=#0F8B8D;fontColor=#143642;strokeWidth=2;fillStyle=solid;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;MLP&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="395.5" y="374" as="geometry" />
+        </mxCell>
+        <mxCell id="TECLEAK4wFn6KEX-FBJz-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="230" width="175" x="630" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="TECLEAK4wFn6KEX-FBJz-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=1;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=#143642;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Layer N&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="637.5" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="TECLEAK4wFn6KEX-FBJz-31" edge="1" parent="1" source="TECLEAK4wFn6KEX-FBJz-32" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;strokeWidth=2;" target="TECLEAK4wFn6KEX-FBJz-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TECLEAK4wFn6KEX-FBJz-32" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#FFF7CF;strokeColor=#0F8B8D;fontColor=#143642;strokeWidth=2;fillStyle=solid;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Self-Attention&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="675.5" y="274" as="geometry" />
+        </mxCell>
+        <mxCell id="TECLEAK4wFn6KEX-FBJz-33" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fillColor=#FFF7CF;strokeColor=#0F8B8D;fontColor=#143642;strokeWidth=2;fillStyle=solid;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;MLP&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="675.5" y="374" as="geometry" />
+        </mxCell>
+        <mxCell id="TECLEAK4wFn6KEX-FBJz-34" edge="1" parent="1" source="TECLEAK4wFn6KEX-FBJz-23" style="endArrow=classic;html=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;strokeWidth=2;" target="TECLEAK4wFn6KEX-FBJz-35" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440" y="540" as="sourcePoint" />
+            <mxPoint x="550" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TECLEAK4wFn6KEX-FBJz-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=#143642;" value="&lt;b&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;...&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="40" x="560" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="TECLEAK4wFn6KEX-FBJz-36" edge="1" parent="1" source="TECLEAK4wFn6KEX-FBJz-35" style="endArrow=classic;html=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;strokeWidth=2;" target="TECLEAK4wFn6KEX-FBJz-29" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="590" y="370" as="sourcePoint" />
+            <mxPoint x="640" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
