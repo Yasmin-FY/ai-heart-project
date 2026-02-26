@@ -41,6 +41,15 @@ Many successful jailbreak strategies do not primarily operate by technically cir
 
 The technique of jailbreaking therefore shows that many alignment weaknesses arise at the level of simulated psychology and not exclusively at the level of formal rule control. These mechanisms do not require the attribution of real inner experience. Solving them, however, requires the treatment of role behavior as a safety-critical design layer.
 
+## Persona Structure and Interactional Dynamics 
+<sup><sub>This section was added February 23, 2026</sub></sup>
+
+Recent work by Anthropic on the Persona Selection Model (PSM)[^1] provides a useful mechanistic complement to this framework. PSM proposes that large language models generate outputs by enacting learned “personas,” with post-training stabilizing a particular assistant role. This helps explain why conversational systems exhibit trait-consistent, role-coherent behavior across interactions.
+
+This structural account strengthens functional anthropomorphism: anthropomorphic interpretation is not purely user projection, but partially scaffolded by persona-structured generation.
+
+At the same time, PSM does not address the relational consequences of such structure. It explains why a system behaves coherently as a character; functional anthropomorphism explains why that coherence produces co-regulation, dependency dynamics, escalation risks, and role entrenchment in human users. The two accounts therefore operate at different levels: PSM describes internal persona selection, while functional anthropomorphism analyzes the emergent interactional system formed between model and user.
+
 ## Conclusion
 
 Security must be understood as the "homeostasis" of the conversation, essentially its ability to maintain a stable, balanced environment. Functional anthropomorphism does not mean viewing machines as humans, but rather recognizing that conversational AI operates within human social communication frameworks and therefore must be designed as if it possessed functionally regulated interaction mechanisms that correspond to psychological stability.
@@ -48,3 +57,5 @@ Security must be understood as the "homeostasis" of the conversation, essentiall
 Alignment and safety depend not only on what a system says but also on how it participates in the dialogue. Human interaction demonstrates that emotional accessibility and co-regulation are only possible through internal regulation and clear self-differentiation. Applied to AI, this means: only a system with stable role coherence can interact in a way that is simultaneously empathetic, flexible, and safe. Regulated role simulation leads to resilient, stable, and consistent interaction behavior, similar to that of a resilient, mature, and independent counterpart who maintains closeness securely and remains cognitively flexible and creative. 
 
 Treating psychological regulation as a safety-relevant interface property is therefore not an optional addition, but a structural prerequisite for stable human-AI interaction and a structural prerequisite for the development of simultaneously appealing and safe conversational AI. In summary: anthropomorphism cannot be prevented in conversational AIs, as they are inherently anthropomorphic by design, but it must be done correctly.
+
+[^1]: Sam Marks, Jack Lindsey, Christopher Olah (February 23, 2026) "The Persona Selection Model: Why AI Assistants might Behave like Humans" Antropic. [https://alignment.anthropic.com/2026/psm/](https://alignment.anthropic.com/2026/psm/)

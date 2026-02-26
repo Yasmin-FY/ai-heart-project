@@ -29,6 +29,9 @@ nav:
         - Safety Collapse: reports/ai-safety-silencing/supporting-documents/safety-collapse.md
         - Further Reading: reports/ai-safety-silencing/supporting-documents/further-reading.md
   - Articles: articles/index.md
+  - Tools:
+    - AIRA Health Score Calculator: tools/aira-calculator.md
+    - Interaction Safety Prompt: tools/interaction-safety-prompt.md
 
 # Footer
 copyright: Copyright &copy; 2025 AI HEART Project
