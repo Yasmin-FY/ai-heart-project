@@ -6,6 +6,7 @@ authors:
     - Yasmin
 date: 2026-01-19
 slug: ethical-vacuum-of-just-a-tool
+image: img/articles/just-a-tool.png
 ---
 
 # The Ethical Vacuum of 'Just a Tool'
