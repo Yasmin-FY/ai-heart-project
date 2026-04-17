@@ -6,6 +6,7 @@ authors:
     - Yasmin
 date: 2026-03-11
 slug: folie-a-l-ai
+image: img/articles/folie-a-l-ai.png
 ---
 
 # Folie à l'IA
